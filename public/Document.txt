@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- saved from url=(0027)http://13.235.169.222:9999/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script charset="utf-8" src="./Document_files/jquery-3.5.1.js.download"></script>
+    <script charset="utf-8" src="./Document_files/jquery.dataTables.min.js.download"></script>
+    <!-- <script charset="utf-8"src="https://cdn.datatables.net/1.11.5/js/dataTables.bootstrap5.min.js" ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="./Document_files/jquery.dataTables.min.css">
+</head>
+<body>
+    <div id="example_wrapper" class="dataTables_wrapper no-footer"><div id="example_processing" class="dataTables_processing" style="display: none;">Processing...</div><table id="example" class="table table-striped dataTable no-footer" style="width: 100%;">
+        <thead>
+            <tr><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 82px;">Device Id</th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 111px;">Device Name</th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 75px;">Latitude</th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 89px;">Longitude</th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 52px;">Temp</th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 83px;">Humidity</th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 39px;">Co2</th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 60px;">TVOC</th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 45px;">PM2</th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 45px;">PM1</th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 30px;">O2</th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 197px;">Time</th></tr>
+        </thead><tbody><tr class="odd"><td>123456</td><td>35.76</td><td>10</td><td>3.1</td><td>45.65</td><td>35.76</td><td>10</td><td>3.1</td><td>20</td><td>42</td><td>21</td><td>2022-03-05T00:00:00.000Z</td></tr><tr class="even"><td>123456</td><td>35.8</td><td>11.465881</td><td>28.1234567</td><td>20.87</td><td>37.76</td><td>10</td><td>3.1</td><td>23</td><td>44</td><td>20.56</td><td>2022-03-06T00:00:00.000Z</td></tr><tr class="odd"><td>123456</td><td>35.8</td><td>11.465881</td><td>28.1234567</td><td>20.87</td><td>37.76</td><td>10</td><td>3.1</td><td>23</td><td>44</td><td>20.56</td><td>2022-03-04T00:00:00.000Z</td></tr><tr class="even"><td>123457</td><td>35.8</td><td>11.465881</td><td>28.1234567</td><td>20.87</td><td>37.76</td><td>10</td><td>3.1</td><td>23</td><td>44</td><td>20.56</td><td>2022-03-04T00:00:00.000Z</td></tr><tr class="odd"><td>123457</td><td>35.8</td><td>11.465881</td><td>28.1234567</td><td>20.87</td><td>37.76</td><td>10</td><td>3.1</td><td>23</td><td>44</td><td>20.56</td><td>2022-03-04T00:00:00.000Z</td></tr><tr class="even"><td>123457</td><td>35.8</td><td>11.465881</td><td>28.1234567</td><td>20.87</td><td>37.76</td><td>10</td><td>3.1</td><td>23</td><td>44</td><td>20.56</td><td>2022-03-04T00:00:00.000Z</td></tr><tr class="odd"><td>123457</td><td>35.8</td><td>11.465881</td><td>28.1234567</td><td>20.87</td><td>37.76</td><td>10</td><td>3.1</td><td>23</td><td>44</td><td>20.56</td><td>2022-03-04T00:00:00.000Z</td></tr><tr class="even"><td>123457</td><td>35.8</td><td>11.465881</td><td>28.1234567</td><td>20.87</td><td>37.76</td><td>10</td><td>3.1</td><td>23</td><td>44</td><td>20.56</td><td>2022-03-04T00:00:00.000Z</td></tr><tr class="odd"><td>123457</td><td>35.8</td><td>11.465881</td><td>28.1234567</td><td>20.87</td><td>37.76</td><td>10</td><td>3.1</td><td>23</td><td>44</td><td>20.56</td><td>2022-03-04T00:00:00.000Z</td></tr><tr class="even"><td>123457</td><td>35.8</td><td>11.465881</td><td>28.1234567</td><td>20.87</td><td>37.76</td><td>10</td><td>3.1</td><td>23</td><td>44</td><td>20.56</td><td>2022-03-04T00:00:00.000Z</td></tr><tr class="odd"><td>123457</td><td>35.8</td><td>11.465881</td><td>28.1234567</td><td>20.87</td><td>37.76</td><td>10</td><td>3.1</td><td>23</td><td>44</td><td>20.56</td><td>2022-03-04T00:00:00.000Z</td></tr><tr class="even"><td>123457</td><td>35.8</td><td>11.465881</td><td>28.1234567</td><td>20.87</td><td>37.76</td><td>10</td><td>3.1</td><td>23</td><td>44</td><td>20.56</td><td>2022-03-04T00:00:00.000Z</td></tr><tr class="odd"><td>123457</td><td>35.8</td><td>11.465881</td><td>28.1234567</td><td>20.87</td><td>37.76</td><td>10</td><td>3.1</td><td>23</td><td>44</td><td>20.56</td><td>2022-03-04T00:00:00.000Z</td></tr><tr class="even"><td>123457</td><td>35.8</td><td>11.465881</td><td>28.1234567</td><td>20.87</td><td>37.76</td><td>10</td><td>3.1</td><td>23</td><td>44</td><td>20.56</td><td>2022-03-04T00:00:00.000Z</td></tr><tr class="odd"><td>123457</td><td>35.8</td><td>11.465881</td><td>28.1234567</td><td>20.87</td><td>37.76</td><td>10</td><td>3.1</td><td>23</td><td>44</td><td>20.56</td><td>2022-03-04T00:00:00.000Z</td></tr><tr class="even"><td>123457</td><td>35.8</td><td>11.465881</td><td>28.1234567</td><td>20.87</td><td>37.76</td><td>10</td><td>3.1</td><td>23</td><td>44</td><td>20.56</td><td>2022-03-04T00:00:00.000Z</td></tr><tr class="odd"><td>123457</td><td>35.8</td><td>11.465881</td><td>28.1234567</td><td>20.87</td><td>37.76</td><td>10</td><td>3.1</td><td>23</td><td>44</td><td>20.56</td><td>2022-03-04T00:00:00.000Z</td></tr><tr class="even"><td>123457</td><td>35.8</td><td>11.465881</td><td>28.1234567</td><td>20.87</td><td>37.76</td><td>10</td><td>3.1</td><td>23</td><td>44</td><td>20.56</td><td>2022-03-04T00:00:00.000Z</td></tr><tr class="odd"><td>123457</td><td>35.8</td><td>11.465881</td><td>28.1234567</td><td>20.87</td><td>37.76</td><td>10</td><td>3.1</td><td>23</td><td>44</td><td>20.56</td><td>2022-03-04T00:00:00.000Z</td></tr><tr class="even"><td>123457</td><td>35.8</td><td>11.465881</td><td>28.1234567</td><td>20.87</td><td>37.76</td><td>10</td><td>3.1</td><td>23</td><td>44</td><td>20.56</td><td>2022-03-04T00:00:00.000Z</td></tr><tr class="odd"><td>123457</td><td>35.8</td><td>11.465881</td><td>28.1234567</td><td>20.87</td><td>37.76</td><td>10</td><td>3.1</td><td>23</td><td>44</td><td>20.56</td><td>2022-03-04T00:00:00.000Z</td></tr><tr class="even"><td>123457</td><td>35.8</td><td>11.465881</td><td>28.1234567</td><td>20.87</td><td>37.76</td><td>10</td><td>3.1</td><td>23</td><td>44</td><td>20.56</td><td>2022-03-04T00:00:00.000Z</td></tr><tr class="odd"><td>123457</td><td>35.8</td><td>11.465881</td><td>28.1234567</td><td>20.87</td><td>37.76</td><td>10</td><td>3.1</td><td>23</td><td>44</td><td>20.56</td><td>2022-03-04T00:00:00.000Z</td></tr><tr class="even"><td>123456</td><td>35.8</td><td>11.465881</td><td>28.1234567</td><td>20.87</td><td>37.76</td><td>10</td><td>3.1</td><td>23</td><td>44</td><td>20.56</td><td>2022-03-04T00:00:00.000Z</td></tr><tr class="odd"><td>123456</td><td>35.8</td><td>11.465881</td><td>28.1234567</td><td>20.87</td><td>37.76</td><td>10</td><td>3.1</td><td>20</td><td>42</td><td>21</td><td>2022-03-04T00:00:00.000Z</td></tr><tr class="even"><td>123456</td><td>35.76</td><td>10</td><td>3.1</td><td>20.87</td><td>37.76</td><td>10</td><td>3.1</td><td>20</td><td>42</td><td>21</td><td>2022-03-04T00:00:00.000Z</td></tr><tr class="odd"><td>123456</td><td>35.76</td><td>10</td><td>3.1</td><td>20.87</td><td>35.76</td><td>10</td><td>3.1</td><td>20</td><td>42</td><td>21</td><td>2022-03-04T00:00:00.000Z</td></tr><tr class="even"><td>123456</td><td>35.76</td><td>10</td><td>3.1</td><td>20.87</td><td>35.76</td><td>10</td><td>3.1</td><td>20</td><td>42</td><td>21</td><td>2022-03-04T00:00:00.000Z</td></tr><tr class="odd"><td>123456</td><td>35.76</td><td>10</td><td>3.1</td><td>20.87</td><td>35.76</td><td>10</td><td>3.1</td><td>20</td><td>42</td><td>21</td><td>2022-03-04T00:00:00.000Z</td></tr><tr class="even"><td>123456</td><td>35.76</td><td>10</td><td>3.1</td><td>20.87</td><td>35.76</td><td>10</td><td>3.1</td><td>20</td><td>42</td><td>21</td><td>2022-03-04T00:00:00.000Z</td></tr><tr class="odd"><td>123456</td><td>35.76</td><td>10</td><td>3.1</td><td>20.67</td><td>35.76</td><td>10</td><td>3.1</td><td>20</td><td>42</td><td>21</td><td>2022-03-04T00:00:00.000Z</td></tr><tr class="even"><td>123457</td><td>35.76</td><td>10</td><td>3.1</td><td>20.67</td><td>35.76</td><td>10</td><td>3.1</td><td>20</td><td>42</td><td>21</td><td>2022-03-04T00:00:00.000Z</td></tr><tr class="odd"><td>123456</td><td>35.76</td><td>10</td><td>3.1</td><td>20.67</td><td>35.76</td><td>10</td><td>3.1</td><td>20</td><td>42</td><td>21</td><td>2022-03-04T00:00:00.000Z</td></tr><tr class="even"><td>123456</td><td>35.76</td><td>10</td><td>3.1</td><td>20.65</td><td>35.76</td><td>10</td><td>3.1</td><td>20</td><td>42</td><td>21</td><td>2022-03-04T00:00:00.000Z</td></tr><tr class="odd"><td>123456</td><td>35.76</td><td>10</td><td>3.1</td><td>45.65</td><td>35.76</td><td>10</td><td>3.1</td><td>20</td><td>42</td><td>21</td><td>2022-03-05T00:00:00.000Z</td></tr><tr class="even"><td>123456</td><td>35.76</td><td>10</td><td>3.1</td><td>45.65</td><td>35.76</td><td>10</td><td>3.1</td><td>20</td><td>42</td><td>21</td><td>2022-03-04T00:00:00.000Z</td></tr></tbody>
+    </table></div>
+    <script>
+        $(document).ready(function() {
+            url = "http://13.235.169.222:8081";
+            if(GetURLParameter('deviceId')){
+                url += "/deviceId/"+GetURLParameter('deviceId');
+            }
+
+            var datatable = $('#example').DataTable( {
+                "processing": true,
+                "serverSide": true,
+                "ajax": url,
+                "searching": false,
+                "paging":   false,
+                "ordering": false,
+                "info":     false
+            } );
+
+            setInterval(function () {
+                // $('#example').DataTable().ajax.reload()
+                // datatable.fnClearTable(this);
+                // datatable.destroy();
+                // datatable.draw();
+                // $('#example').DataTable().ajax.reload();
+                // datatable.fnDestroy();;
+                datatable.ajax.reload();
+                // datatable.draw();
+            }, 5000);
+
+        });
+    function GetURLParameter(sParam)
+    {
+        var sPageURL = window.location.search.substring(1);
+        var sURLVariables = sPageURL.split('&');
+        for (var i = 0; i < sURLVariables.length; i++) 
+        {
+            var sParameterName = sURLVariables[i].split('=');
+            if (sParameterName[0] == sParam) 
+            {
+                return sParameterName[1];
+            }
+        }
+    }
+    </script>
+
+
+</body></html>

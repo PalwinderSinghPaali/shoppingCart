@@ -1,0 +1,370 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+.menu-bar
+{
+	background-image: linear-gradient(to left,#FF1493,#DC143C);
+	text-align: right;
+}
+.nav-link
+{
+	font-size: 17px;
+	font-family: Georgia, serif;;
+	color: #fff !important;
+	margin-right: 40px;
+}
+.navbar-nav
+{
+	margin-right: 200px;
+	text-decoration-color: black;
+}
+.menu-bar .navbar-toggler
+{
+	padding-right: 0;
+	outline: none;
+	border: none;
+}
+.form-group
+{
+	color:white;
+	margin-right: 20px;
+}
+.form-group2
+{
+	margin-right: 20px;
+	color: red;
+}
+.banner
+{
+	height: 80vh;
+	/* background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("mmmi.jpg"); */
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+}
+.banner h1
+{
+	padding-top: 170px;
+	font-size: 50px;
+	letter-spacing: 6px;
+	font-weight: 600;
+	text-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+	font-family:Verdana Bold Italic;
+}
+.search-job
+{
+	padding: 50px 10px;
+	margin: -50px 10% 50px;
+	background-image: linear-gradient(to left, #FF1493, #DC143C);
+	background-position: center;
+}
+.search-job .form-control
+{
+  max-width: 250px;
+   display: inline-flex;
+   margin: 10px 5px;
+   border-radius: 0;
+   box-shadow: none !important;
+   border:none !important;
+}
+.search-job .btn-primary
+{
+	border-radius: 0;
+	box-shadow:none !important;
+	border: none;
+	display: inline-flex;
+	margin: 5px;
+	padding: 5px 20px;
+}
+#recruiters
+{
+	padding-top: 50px;
+	padding-bottom:100px ;
+}
+#recruiters h3
+{
+	text-align: center;
+	padding-bottom: 40px;
+}
+h3::before
+{
+	content: '';
+	background-image: linear-gradient(to right,#6db9ef,#7ce08a);
+	width: 50px;
+	height: 30px;
+	position: absolute;
+	z-index: -10;
+	margin-top: -15px;
+	border-top-left-radius: 70px;
+	border-bottom-right-radius: 90px;
+}
+
+#recruiters img
+{
+	max-width: 100px;
+	margin: 10px;
+}
+#jobs
+{
+	background:#A9CCE3;
+	padding: 50px 0;
+}
+.company-details
+{
+	box-shadow: 0 2px 70px 0 rgba(120, 130,280, .15);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding-left: 0px;
+}
+.job-update
+{
+	background: #D7DBDD ;
+	padding: 10px 5px;
+	border-radius: 5px;
+	font-size: 18px;
+}
+.job-update .bi
+{
+	margin-top: 5px;
+	margin-right: 10px;
+	color: #117A65;
+  width: 50px;
+}
+.job-update small
+{
+	background:#665D76;
+	padding: 1px 5px;
+	margin: 0 5px;
+}
+.job-update p{
+	margin-bottom: 0 !important;
+}
+.job-update a
+{
+	text-decoration:none !important;
+	color:red;
+	float:right;
+}
+.apply-btn
+{
+	height: 50px;
+	width: 70pxx;
+	padding: 10px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-image:  linear-gradient(to right,#6db9ef,#7ce08a);
+}
+.apply-btn .btn-primary
+{
+ padding: 0 30px;
+ width: 100px;
+ height: 40px;
+ border-radius:20px;
+ border: 2px solid #6D42B3;
+ /* background-image: ; */
+} 
+.save-btn
+{
+	background:#fff;
+	padding: 0 30px;
+ width: 100px;
+ height: 40px;
+ border-radius:40px;
+}
+.page-link li
+{
+  height: 25px;
+  width: 25px;
+  list-style: none;
+  display: inline-block;
+  cursor: pointer;
+}
+.page-link li:hover,.active
+{
+	color: #fff;
+	background-image: linear-gradient(to right,#6db9ef,#7ce08a);
+}
+.left-arrow
+{
+	color: #999;
+}
+.right-arrow
+{
+	color: #29b929;
+}
+#site-stats
+{
+	padding: 30px 0;
+	background-image: linear-gradient(to right,#DAF8F9,#F5F844);
+}
+.site-stats h3
+{
+	margin-bottom: 30px;
+	font-size: 30px;
+}
+.stats-box
+{
+	padding: 30px;
+	font-size: 20px;
+	border-radius: 10px;
+	margin: 20px 0;
+	box-shadow: 0 2px 40px 0 rgba(110,130,208,.18);
+}
+.stats-box .fa
+{
+    font-size: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.stats-box .fa-brands
+{
+	  font-size: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+#app-banner
+{
+	background-image: linear-gradient(to right,#AFECFA,#CFD1D1)
+}
+#app-banner h1
+{
+	margin-top: 20px;
+	color: #fff;
+}
+#app-banner img
+{
+	width: 150px;
+	margin: 50px 0;
+}
+#footer
+{
+	background: #f8f9fd;
+	padding: 20px 10px 8px;
+}
+.footer-image
+{
+	margin: 30px 0;
+}
+#footer p
+{
+       color: #333;
+}
+.fa-heart
+{
+	color: red;
+}
+hr
+{
+	background-color: #ccc;
+}
+
+.hh
+{
+	text-align: center;
+}
+.lp
+{
+	text-align: center;
+}
+.footer
+ {
+   background: #252020;
+   padding: 80px 0;
+}
+.footer .section-title
+{
+	padding-bottom: 10px;
+}
+.footer h2
+{
+	font-size: 20px;
+}
+.footer a,.footer p 
+{
+  color: #909090;
+}
+.footer h2
+
+{
+	font-size: 30px;
+	color: white;
+}
+.footer strong
+{
+	color: #d9d9d9;
+}
+.footer address p
+ {
+	margin-bottom: 0;
+}
+.section-title p {
+ color: #909090;
+}
+.section-title p .section-title a
+ {
+ color: #909090;
+}
+.footer .social-icon
+ {
+    	margin-top: 25px;
+ }
+ .footer .social-icon .fa-brands
+     {
+        font-size:40px;
+        color:deepskyblue;
+         }
+.footer-info {
+    	margin-right: 2em;
+    }
+    .footer-info h2
+     {
+    	color: #ffffff;
+    	padding: 0;
+    }
+    .footer_menu h2
+     {
+    	 margin-top: 2em;
+    }
+    .footer_menu ul 
+    {
+    	margin: 0;
+    	padding: 0;
+    }
+    .footer_menu li 
+    {
+    	display: inline-block;
+    	list-style: none;
+    	margin: 5px 10px 5px 0;
+    }
+  .newsletter-form .form-control{
+    	background: transparent;
+    	border-radius: 0;
+    	box-shadow: none;
+    	border: 0;
+    	border-bottom: 1px solid #303030;
+    	height: 50px;
+    	margin: 5px 0;
+    	margin-top: 20px;
+    	outline: none;
+    }
+        .newsletter-form input[type="submit"] {
+    	background: transparent;
+    	border: 1px solid #f9f9f9;
+    	border-radius:50px;
+    	color: #ffffff;
+    	display: block;
+    	width: 50%;
+    }
+    .newsletter-form input[type="submit"]:hover{
+    	background: #29ca8e;
+    	border-color:transparent;
+    }
+    .newsletter-form .form-group span {
+    	color: #909090;
+    	display: block;
+    	font-size: 12px;
+    	margin-top: 20px;
+    }

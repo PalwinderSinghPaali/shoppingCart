@@ -1,0 +1,70 @@
+local storage
+----------
+The localStorage and sessionStorage properties allow to save key/value pairs in a web browser.
+
+The localStorage object stores data with no expiration date. The data will not be deleted when the browser is closed, and will be available the next day, week, or year.
+
+
+The localStorage property is read-only.
+
+Tip: Also look at the sessionStorage property which stores data for one session (data is lost when the browser tab is closed).
+
+localStorage.setItem("name", "umesh");
+// Retrieve
+document.getElementById("result").innerHTML = localStorage.getItem("lastname");
+
+localStorage.removeItem("name");
+Definition and Usage
+
+
+
+
+-----------------------------
+window.localStorage
+Syntax for SAVING data to localStorage:
+
+localStorage.setItem("key", "value");
+Syntax for READING data from localStorage:
+
+var lastname = localStorage.getItem("key");
+Syntax for REMOVING data from localStorage:
+
+localStorage.removeItem("key");
+
+localStorage.name="raman";
+localStorage.setItem("name","raman");
+
+------------------
+if (localStorage.clickcount) {
+  localStorage.clickcount = Number(localStorage.clickcount) + 1;
+} else {
+  localStorage.clickcount = 1;
+}
+document.getElementById("result").innerHTML = "You have clicked the button " +
+localStorage.clickcount + " time(s).";
+----------------------------------
+Web storage is data stored locally in a user's browser. There are two types of web storage:
+
+Local storage - data with no expiration date that will persist after the browser window is closed.
+Session storage - data that gets cleared after the browser window is closed.
+This is useful for saving data such as user preferences (light or dark color theme on a website), remembering shopping cart items, or remembering a user is logged into a website.
+
+Previously, cookies were the only option for remembering this type of local, temporary data. Local storage has a significantly higher storage limit (5MB vs 4KB) and doesn't get sent with every HTTP request, so it can be a better option for client-side storage.
+
+Here is an overview of localStorage methods.
+Method	Description
+setItem()	Add key and value to local storage
+getItem()	Retrieve a value by the key
+removeItem()	Remove an item by key
+clear()	Clear all storage
+
+-------------------------------------------------
+sessionStorage
+sessionStorage.setItem("lastname", "kk");
+// Retrieve
+document.getElementById("result").innerHTML = sessionStorage.getItem("lastname");
+The localStorage and sessionStorage properties allow to save key/value pairs in a web browser.
+
+The sessionStorage object stores data for only one session (the data is deleted when the browser tab is closed).
+
+Tip: Also look at the localStorage property which stores data with no expiration date. The data will not be deleted when the browser is closed, and will be available the next day, week, or year.

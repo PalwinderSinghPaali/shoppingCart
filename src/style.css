@@ -1,0 +1,39 @@
+body{
+  background-image: url("9000.jpg");
+  background-size: cover;
+}
+.img{
+transform: scale(1,1);
+transition: transform 2s, filter 2s;
+filter: opacity(.3);
+}
+.img:hover{
+	transform: scale(1,1);
+	filter: opacity(1);
+}
+#kk
+{
+	float:left;
+	margin-bottom: auto;
+	border-radius: 600px 400px 400px 500px;
+	background-color: white;
+	height: 400px;
+	width: 500px;
+}
+#pp
+{
+  background-color:chocolate;
+}
+#jj
+{
+	float:right;
+}
+.d{
+	transform: skew(0deg)
+	transition: transform 2s,filter 2s;
+	filter:brightness(100%);
+}
+.f:hover{
+	transform:scale(2,2);
+	filter:brightness(10%);
+}
